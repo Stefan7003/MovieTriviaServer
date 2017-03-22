@@ -1,0 +1,25 @@
+{
+  "name": "movietriviaserver",
+  "version": "1.0.0",
+  "description": "Server program for the movie triva mobile app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stefan7003/MovieTriviaServer.git"
+  },
+  "author": "Stefan van der Merwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stefan7003/MovieTriviaServer/issues"
+  },
+  "homepage": "https://github.com/Stefan7003/MovieTriviaServer#readme",
+  "engines": "7.7.4",
+  "dependencies": {
+    "express": "4.15.2",
+    "socket.io": "1.7.3"
+  }
+}
